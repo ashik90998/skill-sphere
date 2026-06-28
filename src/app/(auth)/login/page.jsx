@@ -25,7 +25,7 @@ const LoginPage = () => {
         if (error) {
             toast.error('Login Failed' + error.message)
         } else {
-            toast.success("login Successful ")
+            toast.success("login Successful")
         }
     }
     const handleGoogleSignin = async () => {
